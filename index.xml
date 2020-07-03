@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>r10e.de</title>
-    <link>https://r10e.github.io/r10e/</link>
+    <link>https://r10e.de/</link>
     <description>Recent content on r10e.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://r10e.github.io/r10e/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://r10e.de/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://r10e.github.io/r10e/about/</link>
+      <link>https://r10e.de/about/</link>
       <pubDate>Thu, 02 Jul 2020 16:16:07 +0200</pubDate>
       
-      <guid>https://r10e.github.io/r10e/about/</guid>
-      <description>This is just a boring old website.
+      <guid>https://r10e.de/about/</guid>
+      <description>This website is completely content-agnostic.
 I have no content to put here. This may change, this may not change.</description>
     </item>
     
