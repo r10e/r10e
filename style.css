@@ -1,4 +1,36 @@
 :root {
-    --primary-color: #e0115f;
+    --strong-ruby: #e1312f;
+    --toned-down-ruby: #bb5554;
+    --very-light-ruby: #fdf0f0;
+    --shady-ruby: #540d0c;
+    --very-shady-ruby: #110302;
+
+
+    --primary-color: var(--strong-ruby);
+    --secondary-color: var(--shady-ruby);
+    --code-bg-color: var(--very-light-ruby);
+    --invert-font-color: var(--very-light-ruby);
+    --global-font-color: var(--very-shady-ruby);
 }
 
+::selection {
+    background: var(--toned-down-ruby);
+}
+
+.date {
+    font-weight: bold;
+}
+
+.container img {
+        box-shadow: 0 9px 18px 0 rgba(0, 0, 0, .25);
+}
+
+.footer {
+    margin-top: 3em;
+    padding-top: 1em;
+}
+
+.terminal-menu li a:hover {
+    color: var(--very-light-ruby);
+    background: var(--primary-color);
+}
