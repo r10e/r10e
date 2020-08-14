@@ -22,7 +22,13 @@
 }
 
 .container img {
-        box-shadow: 0 9px 18px 0 rgba(0, 0, 0, .25);
+    box-shadow: 0 9px 18px 0 rgba(0, 0, 0, .25);
+}
+
+.post-image {
+    width: auto;
+    float: right;
+    margin: 0 0 2em 1em;
 }
 
 .footer {
@@ -33,4 +39,9 @@
 .terminal-menu li a:hover {
     color: var(--very-light-ruby);
     background: var(--primary-color);
+}
+
+code, a {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
 }
